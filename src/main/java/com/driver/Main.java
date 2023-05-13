@@ -4,9 +4,9 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        RWOnly ob = new RWOnly();
-        ob.setS("GREENY");
-        System.out.println(ob.getS());
+        RWOnly RWOnly = new RWOnly();
+        RWOnly.setS("GREENY");
+        String name = RWOnly.getS();
     }
   
 }
